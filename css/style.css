@@ -1,0 +1,1191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#navbarSupportedContent ul li a {
+  transition: 0.3s all ease;
+  color: #fff;
+}
+
+#navbarSupportedContent ul li a:hover {
+  transform: scale(1.2);
+  color: #fea116;
+}
+
+#navbarSupportedContent ul li ul li a {
+  transition: 0.3s all ease;
+}
+
+#navbarSupportedContent ul li ul li a:hover {
+  transform: none;
+  color: #fea116;
+}
+
+/* .....pizza vala background....... */
+
+.section-1 {
+  background-image: url("../img/bg-hero.jpg");
+  max-width: 1343px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.sec1left {
+  flex-basis: 50%;
+  background-color: #191927;
+  opacity: 90%;
+  padding-left: 100px;
+  padding-top: 150px;
+  padding-bottom: 60px;
+}
+
+.sec1left h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 60px;
+  /* animation-name: pizzaright;
+  animation-duration: 1.4s;
+  animation-timing-function: ease; */
+}
+
+.sec1left p {
+  color: #fff;
+  padding-right: 20px;
+  /* animation-name: pizzaright;
+  animation-duration: 1.4s;
+  animation-timing-function: ease; */
+}
+
+.sec1left button {
+  padding: 10px 30px;
+  background-color: #fea116;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  position: relative;
+  z-index: 1;
+  transition: 0.4s all ease;
+  overflow: hidden;
+}
+
+.sec1left button::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  transform: translateX(-100%);
+  transition: 0.4s all ease;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.sec1left button:hover {
+  color: blue;
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
+.sec1left button:hover::before {
+  transform: translateX(0);
+  border-radius: 8px;
+}
+
+/* .......section 1 right.......... */
+
+.sec1right {
+  flex-basis: 50%;
+  background-color: #191927;
+  opacity: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  /* padding-left: 50px; */
+  padding-bottom: 60px;
+}
+
+.sec1pizza {
+  margin: auto;
+  overflow: hidden;
+}
+
+.sec1pizza img {
+  animation-name: pizzzaleft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pizzzaleft {
+  from {
+    transform: rotate(360deg);
+  }
+}
+
+/* ....cards..... */
+
+.cardmain {
+  max-width: 1143px;
+  gap: 3%;
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+}
+
+.cardmain .card1 {
+  flex-basis: 22%;
+  height: auto;
+}
+
+.card1 {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  transition: 0.5s all ease;
+  z-index: 1;
+  overflow: hidden;
+}
+
+
+.card1::before {
+  position: absolute;
+  content: "";
+  background-color: hsl(37, 11%, 71%);
+  height: 450px;
+  width: 450px;
+  top: -55%;
+  left: -40%;
+  transform: scale(0.00001);
+  transition: 0.7s all ease;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.card1:hover::before {
+  transform: translate(0) rotate(180deg);
+}
+
+.cardmain .card1 i {
+  color: #fea116;
+  font-size: 45px;
+}
+
+.cardmain .card1 h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.cardmain .card1 p {
+  color: hsla(240, 12%, 5%, 0.712);
+  padding-bottom: 10px;
+}
+
+/* .......about us .......... */
+
+.aboutmain {
+  max-width: 1143px;
+  margin: auto;
+  display: flex;
+}
+
+.aboutmainleft {
+  flex-basis: 50%;
+  height: auto;
+  gap: 3%;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.aboutmainleft .img1 {
+  flex-basis: 48.5%;
+}
+
+.aboutmainleft .img1 img {
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.aboutmainright {
+  flex-basis: 50%;
+}
+
+/* right */
+
+.aboutline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.aboutline h2 {
+  font-family: "Playwrite DE SAS", cursive;
+  color: #fea116;
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+}
+
+.aboutline1 {
+  width: 100px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #fea116;
+}
+
+.aboutmainright h1 {
+  font-size: 40px;
+  font-family: "Merriweather", serif;
+  padding-bottom: 20px;
+}
+
+.aboutmainright h1 i {
+  font-size: 40px;
+  color: #fea116;
+}
+
+.aboutmainright {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutmainright p {
+  font-style: italic;
+}
+
+.aboutrating {
+  display: flex;
+  gap: 100px;
+}
+
+.ratingleft {
+  display: flex;
+  gap: 10px;
+}
+
+.ratingline {
+  width: 5px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fea116;
+}
+
+.ratingleft h1 {
+  font-size: 40px;
+  color: #fea116;
+  font-weight: bold;
+}
+
+.ratingexp p {
+  margin: 0;
+}
+
+.ratingexp h4 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.about-btn button {
+  padding: 20px 50px;
+  font-size: 20px;
+  border: none;
+  background-color: #fea116;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  position: relative;
+  z-index: 1;
+  transition: 0.4s all ease;
+  overflow: hidden;
+}
+
+.about-btn button::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+  transform: translateX(100%);
+  transition: 0.4s all ease;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.about-btn button:hover {
+  color: #fea116;
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
+.about-btn button:hover::before {
+  transform: translateX(0);
+  border-radius: 8px;
+}
+
+/* ..........food menu........... */
+
+.foodline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+  padding: 10px 0px;
+}
+
+.foodline1 {
+  width: 60px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #fea116;
+}
+
+.foodline h2 {
+  font-size: 25px;
+  color: #fea116;
+  font-family: "Merriweather", serif;
+}
+
+.foodmenu h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-weight: bolder;
+}
+
+/* ...............food menu bar............ */
+
+.foodmeuubar {
+  display: flex;
+  justify-content: center;
+}
+
+.foodmeuubar {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.foodmenubar-1 {
+  display: flex;
+  gap: 10px;
+}
+
+.foodmenubar-1 i {
+  color: #fea116;
+  font-size: 40px;
+}
+
+.foodmenubar-1 p {
+  margin: 0%;
+  font-size: 15px;
+}
+
+.foodmenubar-1 h4 {
+  margin: 0%;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/*   ......food item.......... */
+
+.foodmenuitem {
+  max-width: 1143px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  height: auto;
+  gap: 4%;
+  padding: 10px;
+  margin-bottom: 70px;
+}
+
+.fooditembox {
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.fooditemleft {
+  flex-basis: 48%;
+
+  display: flex;
+  gap: 10px;
+}
+
+.fooditemleft img {
+  max-width: 75px;
+  max-height: 75px;
+}
+
+.foodrate h4 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.foodrate h3 {
+  font-size: 20px;
+  color: #fea116;
+  font-weight: bolder;
+}
+
+.fooditembox p {
+  font-size: 15px;
+  font-style: italic;
+  color: #00000081;
+  padding: 5px;
+}
+
+.fooditemline {
+  background-color: #00000081;
+  width: auto;
+  height: 1px;
+  border-radius: 5px;
+}
+
+.foodrate {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+/* ...........from section............. */
+
+.formsection {
+  max-width: 1343px;
+  height: auto;
+  display: flex;
+}
+
+.formvideo {
+  flex-basis: 50%;
+}
+
+.formvideo img {
+  width: 100%;
+}
+.formsec {
+  flex-basis: 50%;
+  background-color: #0f172b;
+  height: auto;
+  padding: 40px;
+}
+
+.formvideo img {
+  width: 100%;
+  height: 100%;
+}
+
+.formreservation {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.formreservation h3 {
+  color: #fea116;
+  font-size: 20px;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: bolder;
+}
+
+.formline {
+  width: 60px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: #fea116;
+}
+
+.formsec h1 {
+  color: #fff;
+  font-weight: bolder;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.forminput {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3%;
+}
+
+.forminput .inputt {
+  flex-basis: 48%;
+}
+
+.forminput .inputt input {
+  padding: 18px 0px;
+  padding-left: 10px;
+  outline: none;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.formsec input {
+  width: 97%;
+  padding: 40px 0px;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 6px;
+}
+
+.formsec button {
+  width: 97%;
+  padding: 10px 0px;
+  border-radius: 6px;
+  background-color: #fea116;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 10px;
+  position: relative;
+  transition: 0.4s all ease;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.formsec button::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: blue;
+  transform: translateX(-100%);
+  transition: 0.4s all ease;
+  z-index: -1;
+}
+
+.formsec button::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: blue;
+  transform: translateX(100%);
+  transition: 0.4s all ease;
+  z-index: -1;
+}
+
+.formsec button:hover {
+  transition: 0.4s all ease;
+}
+
+.formsec button:hover::before {
+  transform: translateX(-50%);
+}
+
+.formsec button:hover::after {
+  transform: translateX(49%);
+}
+
+/* ..........team ke 4 membar............. */
+
+.teammembar {
+  max-width: 1143px;
+  margin: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.member1 {
+  flex-basis: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 20px 10px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 3px 8px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 12px;
+  height: 240px;
+  background-color: #fff;
+  transition: 
+    height 0.8s ease-in-out,
+    background-color 0.6s ease-in-out,
+    box-shadow 0.4s ease-in-out;
+}
+
+.member1:hover {
+  height: 300px;
+  background-color: #fea116;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* 🔹 Image */
+.memimage img {
+  max-width: 140px;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid #fea116;
+  transition: transform 0.6s ease;
+}
+
+/* Hover par thoda zoom feel */
+.member1:hover .memimage img {
+  transform: scale(1.08);
+}
+
+/* 🔹 Text */
+.member1 h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0 0 0;
+  color: #333;
+  transition: color 0.6s ease;
+}
+
+.member1 p {
+  font-style: italic;
+  color: #777;
+  font-size: 15px;
+  transition: color 0.6s ease;
+}
+
+.member1:hover h2,
+.member1:hover p {
+  color: #fff;
+}
+
+/* 🔹 Icons */
+.mediaiconsformember {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  opacity: 0;
+  transform: translateY(-25px); /* 👈 upar se aayega */
+  transition: 
+    opacity 0.8s ease-in-out, 
+    transform 0.8s ease-in-out;
+}
+
+/* Hover hone par icons appear (simultaneously) */
+.member1:hover .mediaiconsformember {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 🔹 Icon design */
+.mediaiconsformember a i {
+  background-color: #fff;
+  color: #fea116;
+  font-size: 20px;
+  height: auto;
+  padding: 10px;
+  width: auto;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: all 0.4s ease;
+}
+
+/* Hover par icon color reverse */
+.mediaiconsformember a i:hover {
+  background-color: #000;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+
+
+.member1 p {
+  font-style: italic;
+  color: #00000093;
+}
+
+/* ..........footer.............. */
+
+.footer {
+  max-width: 1343px;
+  height: auto;
+  padding-bottom: 70px;
+  background-color: #0f172b;
+}
+
+.footercontent {
+  max-width: 1143px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  padding-top: 90px;
+}
+
+.footerline {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.footerline h3 {
+  color: #fea116;
+  font-family: "Archivo Black";
+  font-size: 25px;
+}
+
+.footer1 {
+  flex-basis: 25%;
+}
+
+.fline {
+  height: 2px;
+  width: 40px;
+  background-color: #fea116;
+  border-radius: 8px;
+}
+
+.footer1 ul {
+  list-style: none;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.footer1 ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ......hover only footer ................ */
+
+.footer1 ul li {
+  transition: 0.3s all ease;
+}
+
+.footer1 ul li:hover {
+  transform: scale(1.2);
+  padding-left: 20px;
+}
+
+.footermedia a i {
+  transition: 0.4s all ease;
+}
+
+.footermedia a i:hover {
+  transform: scale(1.2);
+  color: #fea116;
+}
+
+/* ............end hover............. */
+
+.footermedia a {
+  height: auto;
+  font-size: 25px;
+}
+
+.footermedia a i {
+  color: white;
+}
+
+.footer1 ul li h5,
+h6,
+p {
+  color: #fff;
+}
+
+.footerinputbtn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.footerinputbtn button {
+  position: absolute;
+  background-color: #fea116;
+  color: #fff;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-weight: bolder;
+  font-family: "Archivo Black";
+}
+
+.footerinputbtn input {
+  padding: 14px 10px;
+  flex-grow: 1;
+  outline: none;
+}
+
+/* ..............footerhr.............. */
+
+.footerhr {
+  max-width: 1143px;
+  height: 2px;
+  margin: auto;
+  background-color: #8080804b;
+  margin-top: 20px;
+}
+
+/* .......footer end............ */
+
+.footerend {
+  max-width: 1143px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.footerend p a {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.footerend p {
+  font-size: 15px;
+}
+
+.footerend ul {
+  list-style: none;
+  color: #fff;
+  display: flex;
+  gap: 1px;
+  font-size: 18px;
+  background-color: gray;
+  padding: 0%;
+}
+
+.footerend ul li {
+  background-color: #0f172b;
+  padding: 0px 14px;
+}
+
+/* ...........footer end last........... */
+
+.footerendlast {
+  max-width: 1143px;
+  margin: auto;
+}
+
+.footerendlast p a {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+/* ..........arrow btn............ */
+
+.loadbtn {
+  padding: 15px;
+  background-color: #fea116;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+  position: fixed;
+}
+
+/* ...............slider.............. */
+
+.sliderrr {
+  min-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+}
+
+.card {
+  padding: 20px;
+  max-width: 350px;
+  height: auto;
+  box-shadow: 0px 0px 10px 3px hsla(0, 4%, 5%, 0.062);
+  margin-bottom: 40px;
+  /* margin-right: 30px; */
+}
+
+.card i {
+  color: #fea116;
+  font-size: 40px;
+  border-radius: 8px;
+}
+
+.card p {
+  line-height: 1.6;
+  margin-top: 13px;
+  color: black;
+}
+
+.sliderbottum img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.sliderbottum {
+  display: flex;
+  gap: 15px;
+}
+
+.sliderbottum h3 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.sliderbottum p {
+  padding: 0;
+  margin: 0;
+  color: gray;
+  font-style: italic;
+}
+
+/* #hello{
+  max-width: 1343px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.wrapper {
+  max-width: 1100px;
+  padding: 20px 10px;
+  margin: 0px 60px 35px;
+  overflow: hidden;
+}
+
+/* ............bullets on slider........... */
+
+.wrapper .swiper-pagination-bullets {
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  opacity: 1;
+}
+
+/* ..............about html file code..................... */
+
+.about-background {
+  max-width: 1343px;
+  height: auto;
+  background-image: url(../img/bg-hero.jpg);
+}
+
+.about-background h1 {
+  text-align: center;
+  font-family: "Archivo Black";
+  font-size: 80px;
+
+  font-weight: bolder;
+  color: #fff;
+}
+
+.breadcrumb {
+  display: flex;
+  justify-content: center;
+}
+
+.breadcrumb ol li {
+  color: #fff;
+}
+
+.breadcrumb ol li a {
+  color: #fea116;
+  text-decoration: none;
+}
+
+.about-opacity {
+  background-color: #191927;
+  opacity: 90%;
+  padding: 80px 0px;
+  margin-bottom: 80px;
+}
+
+/* .............contact 3 part ke liye................... */
+
+.conntact-3 {
+  max-width: 1143px;
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.contact-1 {
+  flex-basis: 33.33%;
+  padding-left: 30px;
+}
+
+.contactline {
+  display: flex;
+  align-items: center;
+}
+
+.contactline h4 {
+  color: #fea116;
+  font-size: 20px;
+  font-family: "Archivo Black";
+}
+
+.contactrightline {
+  width: 40px;
+  height: 1px;
+  background-color: #fea116;
+  border-radius: 6px;
+}
+
+.contact-1 p {
+  color: hsla(0, 0%, 0%, 0.644);
+}
+
+.contact-1 p i {
+  color: #fea116;
+}
+
+/* ...............map or form..................... */
+
+.map-form {
+  max-width: 1143px;
+  margin: auto;
+  display: flex;
+  gap: 4%;
+  margin-bottom: 60px;
+  padding: 20px;
+}
+
+.map {
+  flex-basis: 48%;
+}
+
+.map iframe {
+  width: 100%;
+  height: auto;
+}
+
+/* ...........form for contact................ */
+
+.formkeliye {
+  flex-basis: 48%;
+  display: flex;
+  flex-wrap: wrap;
+  /* max-height: 225px; */
+  height: auto;
+  gap: 4%;
+}
+
+.name {
+  flex-basis: 48%;
+}
+
+.name input {
+  width: 100%;
+  padding: 10px 0px 10px 10px;
+}
+
+.subject {
+  flex-basis: 100%;
+}
+
+.subject input {
+  width: 100%;
+  padding: 10px 0px 20px 10px;
+}
+
+.message {
+  flex-basis: 100%;
+}
+
+.message input {
+  width: 100%;
+  padding: 10px 0px 60px 10px;
+}
+
+.contactbtn {
+  flex-basis: 100%;
+}
+
+.contactbtn button {
+  width: 100%;
+  background-color: #fea116;
+  color: #fff;
+  font-weight: 900;
+  border: none;
+  padding: 15px 0px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0, 4s all ease;
+}
+
+.contactbtn button::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: blue;
+  transform: translateX(-50%);
+  transition: 0.4s all ease;
+  z-index: -1;
+}
+
+.contactbtn button::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: blue;
+  transform: translateX(49%);
+  transition: 0.4s all ease;
+  z-index: -1;
+}
+
+.contactbtn button:hover {
+  transition: 0.4s all ease;
+}
+
+.contactbtn button:hover::before {
+  transform: translateX(-100%);
+}
+
+.contactbtn button:hover::after {
+  transform: translateX(100%);
+}
+
+/* ..........toggle button............ */
+
+.onlybutton {
+  position: relative;
+  height: 100vh;
+}
+
+.togglebtn {
+  width: 50px;
+  height: 50px;
+  background-color: #fea116;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  position: fixed;
+}
+
+.mytoggy {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+}

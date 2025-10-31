@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+  <!-- AOS CSS -->
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+  <section class="onlybutton">
+
+  <!-- ....navbar..... -->
+
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid ">
+      <a class="navbar-brand text-warning fs-4 fw-bolder " href="#"><i class="fa fa-utensils me-3"></i>RESTORENT</a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-dark bg-secondary "></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-2">
+          <li class="nav-item">
+            <a class="nav-link  fw-bolder" aria-current="page" href="./index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bolder" aria-current="page" href="./about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bolder" aria-current="page" href="./services.html">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bolder" aria-current="page" href="./menu.html">MENU</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle  fw-bolder" href="" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              PAGES
+            </a>
+            <ul class="dropdown-menu bg-secondary">
+              <li><a class="dropdown-item  fw-bolder " href="./booking.html">BOOKING</a></li>
+              <li><a class="dropdown-item  fw-bolder" href="./ourteam.html">OUR TEAM</a></li>
+              <li><a class="dropdown-item  fw-bolder" href="./testmonil.html">TESTIMONIAL</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  fw-bolder" aria-current="page" href="./contact.html">CONTACT</a>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-warning fw-bolder text-light" onclick="homePage()">BOOK A TABLE</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- .......background section ........... -->
+
+  <section class="section-1">
+    <!-- <div class="section-background"></div> -->
+    <div class="sec1left" >
+
+      <div class="index-h1" data-aos="fade-right" data-aos-duration="2000">
+        
+      <h1>Enjoy Our <br>Delicious Meal</h1>
+      <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et
+        lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+      <div class="secleftbtn">
+        <button onclick="homePage()" >BOOK A TABLE</button>
+      </div>
+    
+      </div>
+
+    </div>
+    <div class="sec1right">
+      <div class="sec1pizza">
+        <img src="img/hero.png" width="80%" alt="">
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ...........cards.......... -->
+
+  <section class="cards "  style="overflow: hidden;">
+    <div class="cardmain" >
+      <div class="card1" data-aos="fade-right" data-aos-duration="1000">
+        <i class="fa fa-3x fa-user-tie "></i>
+        <h2>Master Chefs</h2>
+        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+      </div>
+
+      <div class="card1" data-aos="fade-down" data-aos-duration="1500">
+        <i class="fa fa-3x fa-utensils "></i>
+        <h2>Quality Food</h2>
+        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+      </div>
+
+      <div class="card1"data-aos="fade-up" data-aos-duration="1500">
+        <i class="fa fa-3x fa-cart-plus "></i>
+        <h2>
+          Online Order</h2>
+        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+      </div>
+
+      <div class="card1" data-aos="fade-left" data-aos-duration="1000">
+        <i class="fa fa-3x fa-headset"></i>
+        <h2>24/7 Service</h2>
+        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ..........About us........ -->
+
+  <section class="aboutus" style="overflow: hidden;">
+    <div class="aboutmain">
+      <div class="aboutmainleft" >
+        <div class="img1" data-aos="fade-right"  data-aos-duration="1000">
+          <img src="img/about-1.jpg" alt="">
+        </div>
+        <div class="img1" data-aos="fade-left"  data-aos-duration="1000">
+          <img src="img/about-2.jpg" alt="">
+        </div>
+        <div class="img1" data-aos="fade-left"  data-aos-duration="1000">
+          <img src="img/about-3.jpg" alt="">
+        </div>
+        <div class="img1" data-aos="fade-right"  data-aos-duration="1000">
+          <img src="img/about-4.jpg" alt="">
+        </div>
+
+      </div>
+
+      <div class="aboutmainright" data-aos="fade-up"  data-aos-duration="1000">
+
+        <div class="aboutline">
+          <h2>About Us</h2>
+          <div class="aboutline1"></div>
+        </div>
+
+        <h1>Welcome to <i class="fa fa-3x fa-utensils "></i> Restorant</h1>
+        <p class="text-secondary">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+          eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
+
+        <p class="text-secondary">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+          eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+
+        </p>
+
+        <div class="aboutrating">
+          <div class="ratingleft">
+            <div class="ratingline"></div>
+            <h1 class="counter-numbers" data-number="1500">0</h1>
+            <div class="ratingexp">
+              <p class="text-secondary">Years of</p>
+              <h4>Experience</h4>
+            </div>
+          </div>
+
+          <div class="ratingleft">
+            <div class="ratingline"></div>
+            <h1 class="counter-numbers" data-number="5000">0</h1>
+            <div class="ratingexp">
+              <p class="text-secondary">Popular</p>
+              <h4>Master Chefs</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-btn">
+          <button onclick="homePage()">Read More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- .........Food Menu......... -->
+
+  <section class="foodmenu" data-aos="fade-up" data-aos-duration="1000">
+    <div class="foodline">
+      <div class="foodline1"></div>
+      <h2>Food Menu</h2>
+      <div class="foodline1"></div>
+    </div>
+    <h1>Most Popular Items</h1>
+  </section>
+
+  <!-- .........food menu bar........... -->
+
+  <section class="foodmeuubar" data-aos="fade-up" data-aos-duration="1000">
+    <div class="foodmenubar-1">
+      <i class="fa fa-coffee fa-2x "></i>
+      <div class="foodmenubarright">
+        <p class="text-secondary">Popular</p>
+        <h4>Breakfast</h4>
+      </div>
+    </div>
+
+    <div class="foodmenubar-1" >
+      <i class="fa fa-hamburger fa-2x "></i>
+      <div class="foodmenubarright">
+        <p class="text-secondary">Popular</p>
+        <h4>Breakfast</h4>
+      </div>
+    </div>
+
+    <div class="foodmenubar-1">
+      <i class="fa fa-utensils fa-2x "></i>
+      <div class="foodmenubarright">
+        <p class="text-secondary">Popular</p>
+        <h4>Breakfast</h4>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ..............food item menu...........  -->
+
+  <section class="foodmenuitem" style="overflow: hidden;">
+    <div class="fooditemleft" data-aos="fade-right" data-aos-duration="1000">
+      <img src="./img/menu-1.jpg" alt="">
+      <div class="fooditembox">
+        <div class="foodrate">
+          <h4>Chicken Burger</h4>
+          <h3>$115</h3>
+        </div>
+        <div class="fooditemline"></div>
+        <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+    </div>
+
+    <div class="fooditemleft" data-aos="fade-left" data-aos-duration="1000">
+      <img src="./img/menu-2.jpg" alt="">
+      <div class="fooditembox">
+        <div class="foodrate">
+          <h4>Chicken Burger</h4>
+          <h3>$115</h3>
+        </div>
+        <div class="fooditemline"></div>
+        <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+    </div>
+
+    <div class="fooditemleft" data-aos="fade-right" data-aos-duration="1000" >
+      <img src="./img/menu-3.jpg" alt="">
+      <div class="fooditembox">
+        <div class="foodrate">
+          <h4>Chicken Burger</h4>
+          <h3>$115</h3>
+        </div>
+        <div class="fooditemline"></div>
+        <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+    </div>
+
+    <div class="fooditemleft" data-aos="fade-left" data-aos-duration="1000">
+      <img src="./img/menu-4.jpg" alt="">
+      <div class="fooditembox">
+        <div class="foodrate">
+          <h4>Chicken Burger</h4>
+          <h3>$115</h3>
+        </div>
+        <div class="fooditemline"></div>
+        <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+    </div>
+
+    <div class="fooditemleft"data-aos="fade-right" data-aos-duration="1000">
+      <img src="./img/menu-5.jpg" alt="">
+      <div class="fooditembox">
+        <div class="foodrate">
+          <h4>Chicken Burger</h4>
+          <h3>$115</h3>
+        </div>
+        <div class="fooditemline"></div>
+        <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+    </div>
+
+    <div class="fooditemleft" data-aos="fade-left" data-aos-duration="1000">
+      <img src="./img/menu-6.jpg" alt="">
+      <div class="fooditembox">
+        <div class="foodrate">
+          <h4>Chicken Burger</h4>
+          <h3>$115</h3>
+        </div>
+        <div class="fooditemline"></div>
+        <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+    </div>
+
+    <div class="fooditemleft" data-aos="fade-right" data-aos-duration="1000">
+      <img src="./img/menu-7.jpg" alt="">
+      <div class="fooditembox">
+        <div class="foodrate">
+          <h4>Chicken Burger</h4>
+          <h3>$115</h3>
+        </div>
+        <div class="fooditemline"></div>
+        <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+    </div>
+
+    <div class="fooditemleft" data-aos="fade-left" data-aos-duration="1000">
+      <img src="./img/menu-8.jpg" alt="">
+      <div class="fooditembox">
+        <div class="foodrate">
+          <h4>Chicken Burger</h4>
+          <h3>$115</h3>
+        </div>
+        <div class="fooditemline"></div>
+        <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- .........form section........ -->
+
+  <section class="formsection" style="overflow: hidden;">
+    <div class="formvideo" data-aos="zoom-in" data-aos-duration="1000">
+      <img src="./img/video.jpg" alt="">
+    </div>
+    <div class="formsec" data-aos="zoom-out" data-aos-duration="1000">
+      <div class="formreservation">
+        <h3>Reservation</h3>
+        <div class="formline"></div>
+      </div>
+      <h1>Book A Table Online</h1>
+
+      <div class="forminput">
+        <div class="inputt">
+          <input type="text" placeholder="Your Name">
+        </div>
+
+        <div class="inputt">
+          <input type="text" placeholder="Your Email">
+        </div>
+
+        <div class="inputt">
+          <input type="text" placeholder="Date & Time">
+        </div>
+
+        <div class="inputt">
+          <input type="text" placeholder="Your Select">
+        </div>
+
+      </div>
+
+      <input type="text" placeholder="Special Request">
+      <button onclick="homePage()">BOOK NOW</button>
+    </div>
+  </section>
+
+  <!-- .........Team Members......... -->
+
+  <section class="foodmenu" data-aos="fade-up" data-aos-duration="1000">
+    <div class="foodline" >
+      <div class="foodline1"></div>
+      <h2>Team Members</h2>
+      <div class="foodline1"></div>
+    </div>
+    <h1 >Our Master Chefs</h1>
+  </section>
+
+  <!-- .............team ke member 4 card........... -->
+
+  <section class="teammembar" style="overflow: hidden;">
+    <div class="member1" data-aos="fade-left" data-aos-duration="1000">
+      <div class="memimage">
+        <img src="./img/team-1.jpg" alt="">
+      </div>
+      <h2>Full Name</h2>
+      <p>Designation</p>
+      <div class="mediaiconsformember">
+        <a href=""><i class="fab fa-facebook-f"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="member1" data-aos="fade-right" data-aos-duration="1000">
+      <div class="memimage">
+        <img src="./img/team-2.jpg" alt="">
+      </div>
+      <h2>Full Name</h2>
+      <p>Designation</p>
+      <div class="mediaiconsformember">
+        <a href=""><i class="fab fa-facebook-f"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="member1" data-aos="fade-left" data-aos-duration="1000">
+      <div class="memimage">
+        <img src="./img/team-3.jpg" alt="">
+      </div>
+      <h2>Full Name</h2>
+      <p>Designation</p>
+      <div class="mediaiconsformember">
+        <a href=""><i class="fab fa-facebook-f"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="member1" data-aos="fade-right" data-aos-duration="1000">
+      <div class="memimage">
+        <img src="./img/team-4.jpg" alt="">
+      </div>
+      <h2>Full Name</h2>
+      <p>Designation</p>
+      <div class="mediaiconsformember">
+        <a href=""><i class="fab fa-facebook-f"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- .........Testimonials header......... -->
+
+  <section class="foodmenu" data-aos="fade-up" data-aos-duration="2000">
+    <div class="foodline">
+      <div class="foodline1"></div>
+      <h2>Testimonial</h2>
+      <div class="foodline1"></div>
+    </div>
+    <h1>Our Clients Say!!!</h1>
+  </section>
+
+  <!-- ..........slider............ -->
+
+  <section class="sliderrr" data-aos="fade-up" data-aos-duration="1500">
+    <div class="container swiper " >
+      <div class="wrapper" >
+        <div class="card-list swiper-wrapper" >
+          <div class="card swiper-slide">
+            <i class="fa fa-quote-left fa-2x "></i>
+            <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+            <div class="sliderbottum">
+              <img src="./img/testimonial-1.jpg" alt="">
+              <div class="slider-content">
+                <h3>Client Name</h3>
+                <p>Profession</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <i class="fa fa-quote-left fa-2x "></i>
+            <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+            <div class="sliderbottum">
+              <img src="./img/testimonial-2.jpg" alt="">
+              <div class="slider-content">
+                <h3>Client Name</h3>
+                <p>Profession</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <i class="fa fa-quote-left fa-2x "></i>
+            <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+            <div class="sliderbottum">
+              <img src="./img/testimonial-3.jpg" alt="">
+              <div class="slider-content">
+                <h3>Client Name</h3>
+                <p>Profession</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <i class="fa fa-quote-left fa-2x "></i>
+            <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+            <div class="sliderbottum">
+              <img src="./img/testimonial-4.jpg" alt="">
+              <div class="slider-content">
+                <h3>Client Name</h3>
+                <p>Profession</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ...........footer................ -->
+
+  <section class="footer">
+    <div class="footercontent">
+      <div class="footer1">
+        <div class="footerline">
+          <h3>Company</h3>
+          <div class="fline"></div>
+        </div>
+        <ul>
+          <li><a href="./index.html">>&nbsp;&nbsp;&nbsp;About Us</a></li>
+          <li><a href="./index.html">>&nbsp;&nbsp;&nbsp;Contact Us</a></li>
+          <li><a href="./index.html">>&nbsp;&nbsp;&nbsp;Reservation</a></li>
+          <li><a href="./index.html">>&nbsp;&nbsp;&nbsp;Privacy Policy</a></li>
+          <li><a href="./index.html">>&nbsp;&nbsp;&nbsp;Term & Condition</a></li>
+        </ul>
+      </div>
+
+      <div class="footer1">
+        <div class="footerline">
+          <h3>Contact</h3>
+          <div class="fline"></div>
+        </div>
+        <ul>
+          <li><a href="./index.html"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;123 Street, New York, USA</a></li>
+          <li><a href="./index.html"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;+012 345 67890</a></li>
+          <li><a href="./index.html"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;&nbsp;info@example.com</a></li>
+
+        </ul>
+        <div class="footermedia">
+          <a href="https://twitter.com"> <i class="fa-brands fa-twitter"></i></a>
+          <a href="https://facebook.com"> <i class="fa-brands fa-facebook"></i></a>
+          <a href="https://instagram.com"> <i class="fa-brands fa-instagram"></i></a>
+          <a href="https://youtube.com"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer1">
+        <div class="footerline">
+          <h3>Opening</h3>
+          <div class="fline"></div>
+        </div>
+        <ul>
+          <li>
+            <h5>Monday - Saturday</h5>
+          </li>
+          <li>
+            <h6>09AM - 09PM</h6>
+          </li>
+          <li>
+            <h5>Sunday</h5>
+          </li>
+          <li>
+            <h6>10AM - 08PM</h6>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="footer1">
+        <div class="footerline">
+          <h3>Newsletter</h3>
+          <div class="fline"></div>
+        </div>
+        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+        <div class="footerinputbtn">
+          <input type="email" placeholder="Your email">
+          <button>SIGN UP</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footerhr"></div>
+
+    <div class="footerend">
+      <p>&copy <a href="./index.html">Your Site Name</a>, All Right Reserved. Designed By <a href="./index.html">HTML Codex</a></p>
+      <ul>
+        <li>Home</li>
+        <li>Cookies</li>
+        <li>Help</li>
+        <li>FQAs</li>
+      </ul>
+    </div>
+
+    <div class="footerendlast">
+      <p>Distributed By <a href="./index.html">ThemeWagon</a></p>
+    </div>
+  </section>
+
+  <!-- ................button toggle................... -->
+
+<!-- <div class="mytoggy">
+  <button class="togglebtn">↑</button>
+</div> -->
+
+
+</section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <!-- Link Swiper js -->
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <script src="./script.js"></script>
+
+  <!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,709 @@
+@media only screen and (min-width:200px) and (max-width:425px) {
+
+   /* .sec1pizza img{
+    animation: none;
+  } */
+
+  .section-1{
+    flex-direction: column;
+    height: auto;
+  }
+
+  .sec1left{
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+  
+  }
+
+  .sec1left h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    color: #fea116;
+  }
+
+  .sec1left p{
+    color: #fff;
+    /* padding-right: 20px; */
+    text-align: center;
+  }
+
+  .secleftbtn{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sec1left button{
+    text-align: center;
+  padding: 10px 30px;
+  background-color: #fea116;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+}
+
+.sec1right{
+  background-color: #191927;
+  opacity: 90%; 
+  margin: auto;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  
+  }
+
+  .sec1pizza {
+    margin-bottom: 50px;
+  }
+
+  .sec1pizza img{
+    width: 100%;
+  }
+  .sec1pizza{
+    width: 80%;
+  }
+
+    /* .........cards ........... */
+
+    .cardmain{
+      gap: 30px;
+      display: flex;
+      margin: auto;
+      margin-top: 60px;
+      margin-bottom: 60px;
+      flex-wrap: wrap;
+      flex-direction: column;
+      padding: 30px;
+     }
+
+   /* ......about us........... */
+
+   .aboutmain{
+    /* max-width: 1143px; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .aboutmainleft{
+    padding: 10px;
+   }
+
+   .aboutmainright{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+   }
+
+   .aboutmainright h1{
+    font-size: 25px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    padding-bottom: 20px;
+  }
+  
+  .aboutmainright h1 i{
+    font-size: 15px;
+    color: #fea116;
+  }
+
+ .aboutline h2{
+  font-size: 25px;
+ }
+
+ .aboutline1{
+  width: 50px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #fea116;
+}
+
+.aboutrating{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center  ;
+}
+
+.about-btn button{
+  padding: 7.5px 20px;
+  font-size: 20px;
+  border: none;
+  background-color: #fea116;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+  /* .........about menu.......... */
+
+  .foodline{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+  
+  }
+
+  .foodline1{
+    width: 20px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #fea116;
+  }
+  
+  .foodline h2{
+    font-size: 25px;
+    color: #fea116;
+    font-family: "Merriweather", serif;
+  }
+
+  .foodmenu h1{
+    font-size: 30px;
+  }
+
+
+  /* ...............food menu bar............ */
+
+  .foodmeuubar{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .foodmenubar-1{
+    display: flex;
+    gap: 5px;
+  }
+  
+  .foodmenubar-1 i{
+    color: #fea116;
+    font-size: 30px;
+  }
+  
+  .foodmenubar-1 p{
+    margin: 0%;
+    font-size: 11px;
+  }
+  
+  .foodmenubar-1 h4{
+    margin: 0%;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+
+  /* ...........food item............. */
+
+.foodmenuitem{
+  margin-top: 30px;
+}
+
+
+  .fooditemleft img{
+    max-width: 40px;
+    max-height: 40px;
+  }
+
+  .foodrate h4{
+    font-size: 15px;
+    font-weight: bolder;
+  }
+
+  .foodrate h3{
+    font-size: 15px;
+  }
+
+  .fooditemleft{
+    flex-basis: 90%;
+  }
+
+  .fooditembox{
+    width: 100%;
+    padding: 0px 0px;
+  }
+
+  .foodrate{
+    padding: 0;
+  }
+
+  .fooditembox p{
+    font-size: 10px;
+   font-style: italic;
+   color: #00000081;
+  
+  }
+
+  /* ...............form section................ */
+
+  .formsection{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .forminput{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .formsec h1{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .formline {
+    display: none;
+  }
+  .formreservation h3{
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    
+  }
+
+    /* ..........team ke 4 membar.............. */
+
+  .teammembar{
+    
+    flex-direction: column;
+    padding: 30px;
+    padding-top: 0px;
+  }
+  
+  .member1{
+    margin-bottom: 20px;
+  }
+
+  .memimage img{
+    max-width:  100px ;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .member1 h2{
+    font-size: 15px;
+  }
+  .member1 p{
+    font-size: 12px;
+  }
+
+
+
+  /* ............footer................ */
+
+  .footercontent{
+    padding: 20px;
+    
+  }
+
+  .footer1{
+    flex-basis: 90%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .footer1 ul {
+    font-size: 10px;
+    line-height: 20px;
+
+  }
+
+  .footerinputbtn{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .footerinputbtn button{
+   
+    padding: 4px 6px;
+    font-size: 10px;
+    margin-right: 5px;
+   
+  }
+  
+  
+  .footerinputbtn input{
+    padding: 7px 5px;
+    width: 100%;
+    font-size: 13px;
+    
+  }
+
+  .footer1 ul li h5,h6,p{
+    color: #fff;
+    font-size: 13px;
+  }
+
+  .footerline {
+    margin-bottom: 5px;
+  }
+
+  .footerline h3{
+    color: #fea116;
+    font-family: "Archivo Black";   
+    font-size: 18px;
+  }
+
+  .footermedia a {
+    height: auto;
+    font-size: 15px;
+  }
+
+  .footerend{
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 5px;
+  }
+
+  .footerend p{
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .footerend ul{
+    font-size: 10px;
+  }
+
+  .footerend ul li{
+    padding: 0px 7px;
+  }
+
+  .footerendlast{
+    margin-top: 6px;
+  }
+  .footerendlast p{
+    text-align: center;
+    font-size: 10px;
+  }
+
+    /* ............about html file ke liye ................. */
+
+    .about-background h1{
+      font-size: 40px;
+    }
+
+    .breadcrumb ol li a{
+      font-size: 12px;
+    }
+
+    .breadcrumb ol li {
+      font-size: 12px;
+    }
+
+    .about-opacity{
+      padding: 40px 0px;
+    }
+
+        /* .............contact 3 part ke liye................... */
+
+        .conntact-3{
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          margin-bottom: 0px;
+          
+          }
+        
+          .contact-1{
+            flex-basis: 100%;
+            padding-left: 30px;
+          }
+
+          .contactline h4{
+            font-size: 15px;
+          }
+
+          .contactrightline{
+            width: 25px;
+          }
+
+           /* ................map or form ke liye.................. */
+
+  .map-form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .name{
+    flex-basis: 100%;
+  }
+
+  .formkeliye{
+    margin-top: 10px;
+    gap: 25px;
+  }
+}
+
+   
+  
+
+
+
+/* ................leptop ke liye ................. */
+
+@media only screen and (min-width:426px) and (max-width:768px){
+
+  /* .sec1pizza img{
+    animation: none;
+  } */
+  
+  .section-1{
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .sec1left{
+    max-width: 768px;
+    padding: 0;
+    padding-top: 30px; 
+  
+  }
+
+  .sec1left h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: #fea116;
+  }
+
+  .sec1left p{
+    color: #fff;
+   padding: 0px 50px;
+   text-align:  center;
+  }
+
+  .secleftbtn{
+    display: flex;
+    justify-content: center;
+  }
+
+  .sec1right{
+    flex-basis: 50%;
+    background-color: #191927;
+    opacity: 90%; 
+    padding-top: 60px;
+    padding-left: 0px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sec1pizza img{
+    width: 100%;
+  }
+  .sec1pizza{
+    width: 80%;
+  }
+
+  /* .........cards ........... */
+
+  .cardmain{
+    gap: 3%;
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    padding: 30px;
+   }
+
+  .cardmain .card1{
+    flex-basis: 47%;
+    height: auto;
+    margin-bottom: 20px;
+   }
+
+   /* ......about us........... */
+
+   .aboutmain{
+    /* max-width: 1143px; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .aboutmainleft{
+    padding: 20px;
+   }
+
+   /* right */
+
+   .aboutline{
+ 
+    gap: 10px;
+    }
+
+    .aboutmainright{
+      flex-basis: 50%;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+     }
+
+     .aboutmainright p{
+      font-style: italic;
+      text-align: center;
+      
+    }
+
+    .aboutrating{
+      display: flex;
+      gap: 30px;
+    }
+
+    .aboutmainright h1{
+      font-size: 35px;
+      font-family: "Merriweather", serif;
+      padding-bottom: 20px;
+    }
+    
+    .aboutmainright h1 i{
+      font-size: 30px;
+      color: #fea116;
+    }
+
+    /* .........about menu.......... */
+
+    .foodline1{
+      width: 40px;
+      height: 3px;
+      border-radius: 5px;
+      background-color: #fea116;
+    }
+    
+    .foodline h2{
+      font-size: 20px;
+      color: #fea116;
+      font-family: "Merriweather", serif;
+    }
+
+    .foodmenu h1{
+      font-size: 40px;
+    }
+
+    /* ........food item......... */
+    
+    .fooditemleft{
+      flex-basis: 70%;
+      margin-bottom: 10px;
+    }
+
+    /* ...............form section................ */
+
+    .formsection{
+      display: flex;
+      flex-direction: column;
+      padding-top: 0px;
+
+    }
+
+    /* ..........team ke 4 membar.............. */
+
+    .teammembar{
+      padding: 50px;
+      gap: 3%;
+    
+
+    }
+
+
+    .member1{
+      flex-basis: 48%;
+      margin-bottom: 20px;
+    }
+
+    .memimage img{
+      max-width:  120px ;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    /* ............footer................ */
+
+    .footercontent{
+      gap: 10%;
+      padding: 50px;
+    }
+
+    .footer1{
+      flex-basis: 45%;
+      margin-bottom: 20px;
+    }
+
+    /* ...........footer end.............. */
+
+    .footerend{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .footerend p{
+      font-size: 12px;
+    }
+
+    .footerend ul{
+      font-size: 18px;
+    }
+
+    .footerendlast{
+      margin-top: 10px;
+    }
+    .footerendlast p{
+      text-align: center;
+
+    }
+
+
+    /* ............about html file ke liye ................. */
+
+    .about-background h1{
+      font-size: 60px;
+    }
+
+    /* .............contact 3 part ke liye................... */
+
+.conntact-3{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  }
+
+  .contact-1{
+    flex-basis: 100%;
+    padding-left: 60px;
+  }
+
+  /* ................map or form ke liye.................. */
+
+  .map-form{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name{
+    flex-basis: 100%;
+  }
+
+  .formkeliye{
+    margin-top: 10px;
+    gap: 25px;
+  }
+}
