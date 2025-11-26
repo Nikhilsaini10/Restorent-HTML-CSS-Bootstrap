@@ -11,7 +11,6 @@
 }
 
 #navbarSupportedContent ul li a:hover {
-  transform: scale(1.2);
   color: #fea116;
 }
 
@@ -28,7 +27,7 @@
 
 .section-1 {
   background-image: url("../img/bg-hero.jpg");
-  max-width: 1343px;
+  max-width: 100%;
   height: auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -132,7 +131,7 @@
 /* ....cards..... */
 
 .cardmain {
-  max-width: 1143px;
+  width: 85%;
   gap: 3%;
   display: flex;
   margin: auto;
@@ -195,7 +194,7 @@
 /* .......about us .......... */
 
 .aboutmain {
-  max-width: 1143px;
+  width: 85%;
   margin: auto;
   display: flex;
 }
@@ -404,7 +403,7 @@
 /*   ......food item.......... */
 
 .foodmenuitem {
-  max-width: 1143px;
+  width: 85%;
   display: flex;
   justify-content: center;
   margin: auto;
@@ -467,7 +466,7 @@
 /* ...........from section............. */
 
 .formsection {
-  max-width: 1343px;
+  width: 100%;
   height: auto;
   display: flex;
 }
@@ -598,7 +597,7 @@
 /* ..........team ke 4 membar............. */
 
 .teammembar {
-  max-width: 1143px;
+  width: 85%;
   margin: auto;
   height: auto;
   display: flex;
@@ -716,14 +715,14 @@
 /* ..........footer.............. */
 
 .footer {
-  max-width: 1343px;
+  width: 100%;
   height: auto;
   padding-bottom: 70px;
   background-color: #0f172b;
 }
 
 .footercontent {
-  max-width: 1143px;
+  width: 85%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -830,7 +829,7 @@ p {
 /* ..............footerhr.............. */
 
 .footerhr {
-  max-width: 1143px;
+  width: 85%;
   height: 2px;
   margin: auto;
   background-color: #8080804b;
@@ -840,7 +839,7 @@ p {
 /* .......footer end............ */
 
 .footerend {
-  max-width: 1143px;
+  width: 85%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -875,7 +874,7 @@ p {
 /* ...........footer end last........... */
 
 .footerendlast {
-  max-width: 1143px;
+  width: 85%;
   margin: auto;
 }
 
@@ -961,7 +960,7 @@ p {
 } */
 
 .wrapper {
-  max-width: 1100px;
+  width: 83%;
   padding: 20px 10px;
   margin: 0px 60px 35px;
   overflow: hidden;
@@ -979,7 +978,7 @@ p {
 /* ..............about html file code..................... */
 
 .about-background {
-  max-width: 1343px;
+  width: 100%;
   height: auto;
   background-image: url(../img/bg-hero.jpg);
 }
@@ -988,7 +987,6 @@ p {
   text-align: center;
   font-family: "Archivo Black";
   font-size: 80px;
-
   font-weight: bolder;
   color: #fff;
 }
@@ -1017,7 +1015,7 @@ p {
 /* .............contact 3 part ke liye................... */
 
 .conntact-3 {
-  max-width: 1143px;
+  width: 85%;
   margin: auto;
   display: flex;
   margin-bottom: 50px;
@@ -1057,7 +1055,7 @@ p {
 /* ...............map or form..................... */
 
 .map-form {
-  max-width: 1143px;
+  width: 85%;
   margin: auto;
   display: flex;
   gap: 4%;
